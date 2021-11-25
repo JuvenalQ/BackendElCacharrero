@@ -50,7 +50,7 @@ public class userController {
    * @return
    */
   @PostMapping("/new")
-  @ResponseStatus(HttpStatus.CREATED) // solucion de error.
+  @ResponseStatus(HttpStatus.CREATED) // solucion de error..
   public userModel saveUser(@RequestBody userModel objUser) {
     return objServices.saveUser(objUser);
   }
